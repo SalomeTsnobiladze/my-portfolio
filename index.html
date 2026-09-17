@@ -1,36 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-<head> 
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ჩემი პორტფოლიო</title>
     <style>
         body {
             background-color: mistyrose;
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        section {
+            margin-bottom: 25px;
         }
     </style>
 </head>
 <body>
- <div style="display: flex; align-items: center; gap: 15px;">
-    <img src="salome.jpg" width="80">
-    <div>
-        <p style="margin: 0; font-weight: bold; color: gray;">დაწყებითების მასწავლებელი</p>
-        <h1 style="margin: 0;">გამარჯობა, მე ვარ სალომე ცნობილაძე</h1>
+
+    <!-- 1. Header (სათაური და ფოტო) -->
+    <div style="display: flex; align-items: center; gap: 15px;">
+        <img src="salome.jpg" width="80">
+        <div>
+            <p style="margin: 0; font-weight: bold; color: gray;">დაწყებითების მასწავლებელი</p>
+            <h1 style="margin: 0;">გამარჯობა, მე ვარ სალომე ცნობილაძე</h1>
+        </div>
     </div>
-</div>
- <h2>სწავლების მეთოდები</h2>
- <ul>
-    <li>ინტერაქტიული და თამაშზე დაფუძნებული სწავლება </li>
-    <li>ინდივიდუალური მიდგომა თითოეულ მოსწავლესთან</li>
-    <li>კრეატიული და საინტერესო დავალებები</li>
-    <li>მეგობრული და მხარდამჭერი გარემოს შექმნა</li>
-</ul>
-    <h2>უნარები</h2>
-    <ul>
-    <li>მეგობრული და სამართლიანი</li>
-    <li>პასუხისმგებლიანი და ყურადღებიანი</li>
-    <li>მომთმენი და კომუნიკაბელური</li>
- </ul>
+
+    <hr>
+
+    <!-- 2. About Me (ჩემ შესახებ) -->
+    <section>
+        <h2>ჩემ შესახებ</h2>
+        <p>მე ვარ სალომე ცნობილაძე,ვცხოვრობ თბილისში. ვსწავლობ Frontend დეველოპმენტს, რადგან თანამედროვე სამყაროში საკმაოდ მოთხოვნადი პროფესიაა.</p>
+    </section>
+
+    <!-- 3. Hobbies (ჰობი) -->
+    <section>
+        <h2>ჰობი</h2>
+        <ul>
+            <li>ახალი ტექნოლოგიების შესწავლა</li>
+            <li>კითხვა და თვითგანვითარება</li>
+            <li>ცეკვა და მოგზაურობა</li>
+        </ul>
+    </section>
+
+    <!-- 4. Goals (მიზნები) -->
+    <section>
+        <h2>მიზნები</h2>
+        <ul>
+            <li><strong>მოკლევადიანი:</strong> წარმატებით დავასრულო HTML/CSS კურსი.</li>
+            <li><strong>საშუალოვადიანი:</strong> შევქმნა რამდენიმე რეალური სავარჯიშო ვებგვერდი.</li>
+            <li><strong>გრძელვადიანი:</strong> გავხდე პროფესიონალი Frontend დეველოპერი.</li>
+        </ul>
+    </section>
+
+    <!-- 5. Education (განათლება) -->
+    <section>
+        <h2>განათლება</h2>
+        <p><strong>ბაკალავრი: </strong>დაწყებითების პედაგოგი</p>
+        <p><strong>კურსი:</strong> Skillwill - Frontend Developer-ის სტუდენტი</p>
+    </section>
+
+    <!-- 6. Experience (გამოცდილება) -->
+    <section>
+        <h2>გამოცდილება</h2>
+        <p><strong> დაწყებითი კლასების მასწავლებელი: </strong> ვმუშაობ სკოლაში 1-4 კლასის მოსწავლეებთან და ვიყენებ ინტერაქტიულ და მეგობრულ მეთოდებს.</p>
+        <p><strong> მენეჯერი და ადმინისტრატორი: </strong> ვმუშაობ ტანსაცმლის მაღაზიაში მენეჯერად, ვკორდინირებ გაყიდვებს და ვმართავ სოციალურ გვერდებს.</p>
+        <p><strong>ვებ-დეველოპმენტი: </strong>ამჟამად აქტიურად ვეუფლები ვებ-დეველოპმენტს და ვქმნი ჩემს პირველ პერსონალურ პორტფოლიოს.</p>
+    </section>
+    <!-- 7. Skills (უნარები) -->
+    <section>
+        <h2>უნარები და მეთოდები</h2>
+        <p><strong>სწავლის მეთოდები:</strong></p>
+        <ul>
+            <li>ინტერაქტიული და თამაშზე დაფუძნებული სწავლება</li>
+            <li>ინდივიდუალური მიდგომა თითოეულ მოსწავლესთან</li>
+            <li>კრეატიული და საინტერესო დავალებები</li>
+            <li>მეგობრული და მხარდამჭერი გარემოს შექმნა</li>
+        </ul>
+        <p><strong>ზოგადი უნარები:</strong></p>
+        <ul>
+            <li>მეგობრული და სამართლიანი</li>
+            <li>პასუხისმგებლიანი და ყურადღებიანი</li>
+            <li>ენერგიული და კომუნიკაბელური</li>
+        </ul>
+    </section>
+
+    <!-- 8. Projects (პროექტები) -->
+    <section>
+        <h2>პროექტები</h2>
+        <ul>
+            <li><strong>პერსონალური პორტფოლიო:</strong> ჩემი პირველი ინდივიდუალური საიტი HTML-ში.</li>
+        </ul>
+    </section>
+
+    <!-- 9. Contact (კონტაქტი) -->
+    <section>
+        <h2>კონტაქტი</h2>
+        <p>ელფოსტა: salo.tsnobiladze@gmail.com</p>
+    </section>
+
+    <!-- 10. Footer (ფუტერი) -->
+    <footer>
+        <p>© 2026 სალომე ცნობილაძე. </p>
+    </footer>
 
 </body>
-</html>
+</html
